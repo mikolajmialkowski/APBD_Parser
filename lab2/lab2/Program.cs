@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -33,7 +34,7 @@ namespace lab2 {
             FileInfo fileInfo = new FileInfo(_addressCsv);
             StreamReader streamReader = new StreamReader(fileInfo.OpenRead());
             string line;
-            
+            HashSet<Student> hashSet = new(new Student());
             while ((line = streamReader.ReadLine()) != null) {
                 string[] lineAtomValues = line.Split(",");
 
@@ -41,7 +42,7 @@ namespace lab2 {
                     if (lineAtomValues.Any(atomValue => atomValue.Equals("")))
                         AddNewErrorToLog("Rekord zawiera pustą wartość - nie dodano Studenta do wpliku wyjściowego ."+ _fileExtension);
                     else {
-                        Student student = new Student {
+                        var student = new Student {
                             FirstName = lineAtomValues[0],
                             LastName = lineAtomValues[1],
                             FieldOfStudy = lineAtomValues[2],
@@ -52,12 +53,16 @@ namespace lab2 {
                             MotherName = lineAtomValues[7],
                             FatherName = lineAtomValues[8],
                         };
-                        
-                        
+
+                        hashSet.Add(student);
                     }
                 }
                 else 
                     AddNewErrorToLog("Zła liczba kolumn");
+            }
+            
+            StreamWriter streamWriter = new(_addressOut+@"\out.txt");
+            foreach (var student in hashSet) {
                 
             }
             
@@ -65,7 +70,7 @@ namespace lab2 {
         }
 
         private static void AddNewErrorToLog(string errorDescription) {
-             using StreamWriter streamWriter = new (_addressOut+"\\log.txt",true); 
+             using StreamWriter streamWriter = new (_addressOut+@"\log.txt",true); 
              streamWriter.WriteLine(errorDescription);
         }
     }

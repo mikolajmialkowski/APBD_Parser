@@ -15,11 +15,7 @@ namespace lab2 {
 
 
         public bool Equals(Student x, Student y) {
-            if (ReferenceEquals(x, y)) return true;
-            if (ReferenceEquals(x, null)) return false;
-            if (ReferenceEquals(y, null)) return false;
-            if (x.GetType() != y.GetType()) return false;
-            return x.FirstName == y.FirstName && x.LastName == y.LastName && x.IndexNumber == y.IndexNumber;
+            return x.FirstName.Equals(y.FirstName) && x.LastName.Equals(y.LastName) && x.IndexNumber.Equals(y.IndexNumber);
         }
 
         public int GetHashCode(Student obj) {
