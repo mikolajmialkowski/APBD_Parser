@@ -1,0 +1,16 @@
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\bin\Debug\net5.0\lab2.exe
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\bin\Debug\net5.0\lab2.deps.json
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.json
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.dev.json
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\bin\Debug\net5.0\lab2.dll
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\bin\Debug\net5.0\ref\lab2.dll
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\bin\Debug\net5.0\lab2.pdb
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.csprojAssemblyReference.cache
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfoInputs.cache
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfo.cs
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.dll
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\ref\lab2.dll
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.pdb
+C:\Users\mjuni\OneDrive\Pulpit\PJATEK\APBD\cwiczenia2_zen-mikolajmialkowski\lab2\lab2\obj\Debug\net5.0\lab2.genruntimeconfig.cache
