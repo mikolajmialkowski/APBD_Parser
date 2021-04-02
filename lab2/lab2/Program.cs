@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.Json;
 
 namespace lab2 {
     class Program {
@@ -63,10 +64,12 @@ namespace lab2 {
             
             StreamWriter streamWriter = new(_addressOut+@"\out.txt");
             foreach (var student in hashSet) {
-                
+                streamWriter.WriteLine(JsonSerializer.Serialize(student));
+                streamWriter.Flush();
             }
             
             streamReader.Dispose();
+            streamWriter.Dispose();
         }
 
         private static void AddNewErrorToLog(string errorDescription) {
