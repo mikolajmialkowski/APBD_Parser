@@ -63,8 +63,9 @@ namespace lab2 {
             }
             
             StreamWriter streamWriter = new(_addressOut+@"\out.txt");
+            var newLine = new JsonSerializerOptions {WriteIndented = true};
             foreach (var student in hashSet) {
-                streamWriter.WriteLine(JsonSerializer.Serialize(student));
+                streamWriter.WriteLine(JsonSerializer.Serialize(student,newLine));
                 streamWriter.Flush();
             }
             
@@ -72,7 +73,7 @@ namespace lab2 {
             streamWriter.Dispose();
         }
 
-        private static void AddNewErrorToLog(string errorDescription) {
+        private static void AddNewErrorToLog(string errorDescription) { //
              using StreamWriter streamWriter = new (_addressOut+@"\log.txt",true); 
              streamWriter.WriteLine(errorDescription);
         }
